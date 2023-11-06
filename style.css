@@ -12,3 +12,10 @@ label {
     font-family: 'Comfortaa', sans-serif;
     color: green;
 }
+
+@media(max-width:330px) {
+    .LoginContainer {
+        width: 100%;
+        /* background-color: salmon; */
+    }
+}
