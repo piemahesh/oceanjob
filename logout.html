@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css"
+        integrity="sha512-GL7EM8Lf8kU23I3kTio2kRWt8YRDVIQcSZjRVtVRfk05kB/QvkyafuTC94Ev0X6qk7Z0r5s06c1lsP1p/ezDYw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-slate-50">
+    <div class=" absolute hidden min-[750px]:block">
+        <img src="./leaf.svg" alt="oaLeaf">
+    </div>
+    <div class=" h-screen w-full  flex items-center justify-center p-2 ">
+        <div
+            class="relative  min-[300px]:w-[400px] bg-white  border flex flex-col
+            shadow-lg shadow-[#3f4e8e31] items-center gap-5 p-3 rounded-xl overflow-hidden">
+            <img src="./leaf.svg" alt="oaLeaf" class="absolute h-20 w-20 left-0 top-0">
+            <img src="./ocean oa.svg" alt="oceanSvg" class="w-20 h-20  object-contain">
+            <p class="text-[#3f4d8e] font-semibold text-lg">Create your Account</p>
+            <div class="w-full flex items-center relative">
+                <i class="ri-mail-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
+                <input type="text" placeholder="Email" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#397c8f5c]">
+            </div>
+            <div class="w-full flex items-center relative">
+                <i class="ri-user-smile-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
+                <input type="text" placeholder="User Id" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#3f4e8e5c]">
+            </div>
+            <div class="w-full flex items-center relative">
+                <i class="ri-lock-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
+                <input type="text" placeholder="Password" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#397c8f5c]">
+            </div>
+            <div class="w-full flex items-center relative">
+                <i class="ri-lock-password-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
+                <input type="text" placeholder="Confirm Password" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#3f4e8e5c]">
+            </div>
+            
+            <div class="flex gap-5">
+                <input type="checkbox" name="check" id="check">
+                <p class="text-[#3f4d8e] font-normal">I agree terms and conditions</p>
+            </div>
+            <button class="w-full bg-[#397c8f] text-white p-2 rounded-md">Create Account</button>
+        </div>
+    </div>
+</body>
+
+</html>
