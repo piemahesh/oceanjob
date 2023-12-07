@@ -19,30 +19,34 @@
     <div class=" absolute hidden min-[750px]:block">
         <img src="./leaf.svg" alt="oaLeaf">
     </div>
+
     <div class=" h-screen w-full  flex items-center justify-center p-2 ">
-        <div
-            class="relative  min-[300px]:w-[400px] bg-white  border flex flex-col
+        <div class="relative  min-[300px]:w-[400px] bg-white  border flex flex-col
             shadow-lg shadow-[#3f4e8e31] items-center gap-5 p-3 rounded-xl overflow-hidden">
             <img src="./leaf.svg" alt="oaLeaf" class="absolute h-20 w-20 left-0 top-0">
             <img src="./ocean oa.svg" alt="oceanSvg" class="w-20 h-20  object-contain">
             <p class="text-[#3f4d8e] font-semibold text-lg">Create your Account</p>
             <div class="w-full flex items-center relative">
                 <i class="ri-mail-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
-                <input type="text" placeholder="Email" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#397c8f5c]">
+                <input type="email" placeholder="Email"
+                    class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#397c8f5c]">
             </div>
             <div class="w-full flex items-center relative">
                 <i class="ri-user-smile-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
-                <input type="text" placeholder="User Id" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#3f4e8e5c]">
+                <input type="text" placeholder="User Id"
+                    class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#3f4e8e5c]">
             </div>
             <div class="w-full flex items-center relative">
                 <i class="ri-lock-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
-                <input type="text" placeholder="Password" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#397c8f5c]">
+                <input type="password" placeholder="Password" required
+                    class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#397c8f5c]">
             </div>
             <div class="w-full flex items-center relative">
                 <i class="ri-lock-password-line absolute ml-2 text-2xl text-[#3f4d8e]"></i>
-                <input type="text" placeholder="Confirm Password" class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#3f4e8e5c]">
+                <input type="password" placeholder="Confirm Password" required
+                    class=" ps-10 bg-slate-50 w-full p-3 rounded-md text-[#3f4d8e] border border-transparent outline-none focus:ring-2 focus:ring-[#3f4e8e5c]">
             </div>
-            
+
             <div class="flex gap-5">
                 <input type="checkbox" name="check" id="check">
                 <p class="text-[#3f4d8e] font-normal">I agree terms and conditions</p>
@@ -50,6 +54,8 @@
             <button class="w-full bg-[#397c8f] text-white p-2 rounded-md">Create Account</button>
         </div>
     </div>
+
+
 </body>
 
 </html>
